@@ -13,6 +13,7 @@ class MiniCulculattor < Minitest::Test
 
     def test_sub
         assert @calc.sub(0, 0) == 0, "sub(0, 0) failed"
+        assert @calc.sub(5, 3) == 2, "sub(5, 3) failed"
     end
 
     def test_mul
