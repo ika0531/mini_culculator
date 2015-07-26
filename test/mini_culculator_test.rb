@@ -8,7 +8,6 @@ class MiniCulculattor < Minitest::Test
     def test_add
         assert @calc.add(0, 0) == 0, "add(0, 0) failed"
         assert @calc.add(1, 1) == 2, "add(1, 1) failed"
-        assert @calc.sub(5, 3) == 0, "sub(5, 3) failed"
     end
 
     def test_sub
