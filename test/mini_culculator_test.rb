@@ -22,7 +22,7 @@ class MiniCulculattor < Minitest::Test
 
     def test_div
         assert @calc.div(1, 1) == 1, "div(1, 1) failed"
-        assert @calc.div(4, 2) == 1, "div(4, 2) failed"
+        assert @calc.div(4, 2) == 3, "div(4, 2) failed"
     end
 
 
